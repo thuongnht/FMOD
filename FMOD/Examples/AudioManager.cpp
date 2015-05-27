@@ -83,7 +83,6 @@ void AudioManager::PlaySFX(const std::string& path,
 	
 	//set loopcount
 	//DO SOME CODEs HERE
-	channel->setLoopCount(loopcount);
 }
 
 void AudioManager::PauseSFXs() 
