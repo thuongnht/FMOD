@@ -116,8 +116,8 @@ void AudioManager::PlaySong(const std::string& path)
 	//system->playSound(FMOD_CHANNEL_FREE,sound->second, true, &currentSong);
 	
 	currentSong->setChannelGroup(groups[CATEGORY_SONG]);
-	float levels[2] = { 0.5f, 1.0f };
-	currentSong->setInputChannelMix(levels, 2);
+	
+	currentSong->setVolume(0.0f);
 	currentSong->setPaused(false);
 	fade = FADE_IN;
 }
