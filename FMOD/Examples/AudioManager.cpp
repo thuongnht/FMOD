@@ -146,6 +146,11 @@ void AudioManager::StopSongs()
 	nextSongPath.clear();
 }
 
+void AudioManager::Stop()
+{
+	//DO SOME CODEs HERE
+}
+
 void AudioManager::Update(float elapsed) 
 {
 	const float fadeTime = 1.0f; // in seconds
