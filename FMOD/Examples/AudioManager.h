@@ -61,6 +61,7 @@ class AudioManager
 			request that was previously set
 		*/
 		void StopSongs();
+		void Stop();
 		//Pause sound/ soundeffect or all of sounds
 		void PauseSFXs();
 		void PauseSongs();
